@@ -8,7 +8,7 @@ from aiogram.types import InputFile
 
 # ================= НАСТРОЙКИ =================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN") or "8563673825:AAH9ccz0QVZGqrqPXieQfmUMkp5jZQbWsv0"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 DOWNLOAD_DIR = "downloads"
 MAX_FILE_SIZE = 50 * 1024 * 1024  # 50 MB
 COOLDOWN = 10  # секунд между запросами
